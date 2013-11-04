@@ -4823,6 +4823,12 @@ public final class Settings {
                 "usb_audio_automatic_routing_disabled";
 
         /**
+         * Whether to include options in power menu for rebooting into recovery or bootloader
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";
+
+        /**
          * The timeout in milliseconds before the device fully goes to sleep after
          * a period of inactivity.  This value sets an upper bound on how long the device
          * will stay awake or dreaming without user activity.  It should generally
@@ -4886,7 +4892,8 @@ public final class Settings {
             MOUNT_UMS_PROMPT,
             MOUNT_UMS_NOTIFY_ENABLED,
             UI_NIGHT_MODE,
-            SLEEP_TIMEOUT
+            SLEEP_TIMEOUT,
+            ADVANCED_REBOOT
         };
 
         /**
